@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ktrammell95/tiy-assignment-14",
   "dependencies": {
+    "gulp": "^3.8.11",
     "gulp-concat": "^2.5.0",
     "gulp-declare": "^0.3.0",
     "gulp-handlebars": "^3.0.1",

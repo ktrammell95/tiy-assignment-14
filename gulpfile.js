@@ -8,7 +8,7 @@ var less       = require("gulp-less");
 var templatePath = "./js/templates/**/*.hbs";
 var lessPath     = "./less/**/*.less";
 
-gulp.task("templates"), function(){
+gulp.task("templates", function(){
   gulp.src(templatePath)
     .pipe(handlebars())
     .pipe(wrap("Handlebars.template(<%= contents %>)"))//capital H?
