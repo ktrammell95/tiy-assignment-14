@@ -21,7 +21,11 @@ gulp.task("less", function() {
   gulp.src(lessPath)
     .pipe(less())
     .pipe(gulp.dest("./css"));
-})
+});
+
+gulp.task("default", ["templates", "less"]);
+  // this sets up a default so you can just type 
+  // in gulp in command line and it will run both less and templates
 
 gulp.task("watch", function() {
   gulp.watch(templatePath, ["templates"]);
