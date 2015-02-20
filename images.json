@@ -1,133 +1,114 @@
 [{
   "album": "A.L Anderson Park",
-  "name": "A.L Anderson Park",
   "photo": "images/al-anderson/anderson-park1.jpg",
   "contact_id": 1,
-  "description": "A.L Anderson Park",
-}
+  "description": "A.L Anderson Park"
+},
 {
   "album": "A.L Anderson Park",
-  "name": "A.L Anderson Park",
   "photo": "images/al-anderson/anderson-park2.jpg",
   "contact_id": 2,
-  "description": "A.L Anderson Park",
-}
+  "description": "A.L Anderson Park"
+},
 {
   "album": "A.L Anderson Park",
-  "name": "A.L Anderson Park",
   "photo": "images/al-anderson/anderson-park3.jpg",
   "contact_id": 3,
-  "description": "A.L Anderson Park",
-}
+  "description": "A.L Anderson Park"
+},
 {
   "album": "Weedon Island",
-  "name": "Weedon Island",
   "photo": "images/weedon/Weedon1.jpg",
   "contact_id": 4,
-  "description": "Weedon Island",
-}
+  "description": "Weedon Island"
+},
 {
   "album": "Gizmo",
-  "name": "Gizmo",
   "photo": "images/Gizmo/gizmo1.jpg",
   "contact_id": 5,
-  "description": "Gizmo",
-}
+  "description": "Gizmo"
+},
 {
   "album": "Gizmo",
-  "name": "Gizmo",
   "photo": "images/Gizmo/gizmo2.jpg",
   "contact_id": 6,
-  "description": "Gizmo",
-}
+  "description": "Gizmo"
+},
 {
   "album": "Gizmo",
-  "name": "Gizmo",
   "photo": "images/Gizmo/gizmo3.jpg",
   "contact_id": 7,
-  "description": "Gizmo",
-}
+  "description": "Gizmo"
+},
 {
   "album": "Fred Howard Park",
-  "name": "Fred Howard Park",
   "photo": "images/fred-howard/fredhoward1.jpg",
   "contact_id": 8,
-  "description": "Fred Howard Park",
-}
+  "description": "Fred Howard Park"
+},
 {
   "album": "Fred Howard Park",
-  "name": "Fred Howard Park",
   "photo": "images/fred-howard/fredhoward2.jpg",
   "contact_id": 9,
-  "description": "Fred Howard Park",
-}
+  "description": "Fred Howard Park"
+},
 {
   "album": "Fred Howard Park",
-  "name": "Fred Howard Park",
   "photo": "images/fred-howard/fredhoward3.jpg",
   "contact_id": 10,
-  "description": "Fred Howard Park",
-}
+  "description": "Fred Howard Park"
+},
 {
   "album": "Manatee Viewing Station",
-  "name": "Manatee Viewing Station",
-  "photo": "images/manateee/manatee1.jpg",
+  "photo": "images/manatee/Manatee1.jpg",
   "contact_id": 11,
-  "description": "Manatee Viewing Station",
-}
+  "description": "Manatee Viewing Station"
+},
 {
   "album": "Manatee Viewing Station",
-  "name": "Manatee Viewing Station",
-  "photo": "images/manateee/manatee2.jpg",
+  "photo": "images/manatee/Manatee2.jpg",
   "contact_id": 12,
-  "description": "Manatee Viewing Station",
-}
+  "description": "Manatee Viewing Station"
+},
 {
   "album": "Manatee Viewing Station",
-  "name": "Manatee Viewing Station",
-  "photo": "images/manateee/manatee3.jpg",
+  "photo": "images/manatee/Manatee3.jpg",
   "contact_id": 13,
-  "description": "Manatee Viewing Station",
-}
+  "description": "Manatee Viewing Station"
+},
 {
   "album": "Sandovation 2014",
-  "name": "Sandovation 2014",
   "photo": "images/Sandovation/sandovation1.jpg",
   "contact_id": 14,
-  "description": "Sandovation 2014",
-}
+  "description": "Sandovation 2014"
+},
 {
   "album": "Sandovation 2014",
-  "name": "Sandovation 2014",
   "photo": "images/Sandovation/sandovation1.jpg",
   "contact_id": 15,
-  "description": "Sandovation 2014",
-}
+  "description": "Sandovation 2014"
+},
 {
   "album": "Sandovation 2014",
-  "name": "Sandovation 2014",
   "photo": "images/Sandovation/sandovation1.jpg",
   "contact_id": 16,
-  "description": "Sandovation 2014",
-}
+  "description": "Sandovation 2014"
+},
 {
   "album": "Tampa Lowry Zoo",
-  "name": "Tampa Lowry Zoo",
   "photo": "images/zoo/zoo1.jpg",
   "contact_id": 17,
-  "description": "Tampa Lowry Zoo",
-}
+  "description": "Tampa Lowry Zoo"
+},
 {
   "album": "Tampa Lowry Zoo",
-  "name": "Tampa Lowry Zoo",
   "photo": "images/zoo/zoo2.jpg",
   "contact_id": 18,
-  "description": "Tampa Lowry Zoo",
-}
+  "description": "Tampa Lowry Zoo"
+},
 {
   "album": "Tampa Lowry Zoo",
-  "name": "Tampa Lowry Zoo",
   "photo": "images/zoo/zoo3.jpg",
   "contact_id": 19,
-  "description": "Tampa Lowry Zoo",
+  "description": "Tampa Lowry Zoo"
 }]
