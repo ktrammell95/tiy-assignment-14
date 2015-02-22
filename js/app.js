@@ -10,7 +10,7 @@ var App = (function() {
     this.showAlbumCollection();
     this.showAlbumSidebar();
     this.showPhotoThumbs();
-    this.showFullPhotos();
+    // this.showFullPhotos();
     this.addListeners();
   }
 
@@ -38,11 +38,12 @@ var App = (function() {
         });
         // photo.album = photo.photo;
         album.photo = photo.photo;
-      });
-            // console.log(albumData)
+      });  
+
       return albumData;
-            
+      // console.log(albumData)      
     },
+
     showAlbumCollection: function() {
       var albumData = this.getAlbumCollection();
       var albumCollection = new AlbumCollection(albumData);
@@ -56,7 +57,7 @@ var App = (function() {
       .pluck("album")
       .uniq()
       .map(function(albumNamesSidebar) {
-        // console.log(albumNamesSidebar)
+        // console.log("testing sidebar " + albumNamesSidebar)
         return {album: albumNamesSidebar}
       })
       .value();
@@ -64,9 +65,11 @@ var App = (function() {
       var app = this;
       _.each(albumNamesSidebar, function(album) {
         var albumNamesSidebar = album.album;
-        });
-          console.log(albumNamesSidebar)
-      return albumNamesSidebar; 
+      });
+
+      return albumNamesSidebar;           
+      
+
     },
 
     showAlbumSidebar: function() {
@@ -83,6 +86,7 @@ var App = (function() {
       .uniq()
       .map(function(photoThumb){
         return {photo: photoThumb};
+        console.log("testing photoThumb " + photoThumb)
 
       })
       .value();
@@ -92,11 +96,13 @@ var App = (function() {
               var photoThumb = photo.photo;
               var photoDesc = _.find(this.data, function(photo){
                 return photo.photo === photoThumb;
+                // console.log("testing photoThumb " + photoThumb)
               });
               // photo.description = photo.description;
               // photo.photo = photo.photo;
             });
             return photoThumb;
+            // console.log("testing photoThumb " + photoThumb)
       },
 
     getPhotoAlbum: function(photoThumb) {
@@ -171,9 +177,9 @@ var App = (function() {
         e.preventDefault();
         $clicked = $(e.currentTarget);
         var albumNames = $clicked.data("ind-album");
-        console.log(albumNames)
-        app.showPhotos(albumNames);
+        app.showAlbumSidebar(albumNames);
       });
+      
 //This needs to let me click on album name in sidebar
 //to get album photo thumbs
       
@@ -184,12 +190,12 @@ var App = (function() {
         app.showPhotoThumbs(photoThumb);
       });
 
-      this.$main.on("click", ".photo-thumb a", function(e){
-        e.preventDefault();
-        $clicked = $(e.currentTarget);
-        var fullPhoto = $clicked.data("photo_id");
-        app.showFullPhotos(app.fullPhoto);
-      });
+      // this.$main.on("click", ".photo-thumb a", function(e){
+      //   e.preventDefault();
+      //   $clicked = $(e.currentTarget);
+      //   var fullPhoto = $clicked.data("photo_id");
+      //   app.showFullPhotos(app.fullPhoto);
+      // });
 
      } 
   };

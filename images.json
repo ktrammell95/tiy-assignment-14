@@ -23,21 +23,21 @@
 {
   "album_id": 2,
   "album": "Weedon Island",
-  "photo": "images/weedon/Weedon1.jpg",
+  "photo": "images/weedon/weedon1.jpg",
   "photo_id": 4,
   "description": "Mangrove crab"
 },
 {
   "album_id": 2,
   "album": "Weedon Island",
-  "photo": "images/weedon/Weedon2.jpg",
+  "photo": "images/weedon/weedon2.jpg",
   "photo_id": 5,
   "description": "Birds flying"
 },
 {
   "album_id": 2,
   "album": "Weedon Island",
-  "photo": "images/weedon/Weedon3.jpg",
+  "photo": "images/weedon/weedon3.jpg",
   "photo_id": 6,
   "description": "Birds in water"
 },
