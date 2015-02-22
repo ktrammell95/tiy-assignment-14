@@ -4,11 +4,12 @@ var App = (function() {
 
     this.$sidebar= $(".sidebar");
     this.$main = $(".main");
+    this.$content = $(".content");
 
-    // this.showAlbums();
-    // this.showAlbumNames();
+    this.showAlbums();
+    this.showAlbumNames();
     this.showPhotos();
-    // this.addListeners();
+    this.addListeners();
   }
 
   App.prototype = {
@@ -44,7 +45,7 @@ var App = (function() {
       var albumData = this.getAlbumData();
       var collection = new AlbumCollection(albumData);
 
-      $("body").html( collection.render() );
+      $(".content").html( collection.render() );
 
     },
 
@@ -122,39 +123,35 @@ var App = (function() {
 
     },
 
-//Individual image
+// Individual image
 
-    // zoomPhoto: function(photoId) {
-    //   var photoData = _.find(this.data, function(album) {
-    //     return album.photo_id === photoId;
-    //   });
+    zoomPhoto: function(photoId) {
+      var photoData = _.find(this.data, function(album) {
+        return album.photo_id === photoId;
+      });
 
-    //   var photo = new PhotoFull(photoData);
+      var photo = new PhotoFull(photoData);
 
-    //   this.$main.html( photo.render() );
-    // },
+      this.$main.html( photo.render() );
+    },
 
-    // addListeners: function() {
-    //   var app = this;
+    addListeners: function() {
+      var app = this;
 
-  //     this.$main.on("click", ".thumbBox", function(e){
-  //       e.preventDefault();
-  //       $clicked = $(e.currentTarget);
-  //       var indAlbum = $clicked.data("pic-box");
-  //       app.showPhotos(indAlbum);
-  //     });
+      this.$content.on("click", ".thumbBox", function(e){
+        e.preventDefault();
+        $clicked = $(e.currentTarget);
+        var indAlbum = $clicked.data("pic-box");
+        app.showPhotos(indAlbum);
+      });
 
-
-
-
-
-  //     this.$sidebar.on("click", "li", function(e){
-  //       e.preventDefault();
-  //       $clicked = $(e.currentTarget);
-  //       var albumName = $clicked.data("group-name");
-  //       app.showPhotos(albumName);
-  //     });
-  //   }
+      this.$sidebar.on("click", "li", function(e){
+        e.preventDefault();
+        $clicked = $(e.currentTarget);
+        var albumName = $clicked.data("group-name");
+        app.showPhotos(albumName);
+      });
+    }
   };
 
   return App;
