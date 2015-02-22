@@ -1,124 +1,146 @@
 [{
+  "album_id": 1,
   "album": "A.L Anderson Park",
   "photo": "images/al-anderson/anderson-park1.jpg",
   "photo_id": 1,
   "description": "View of the water with trees"
 },
 {
+  "album_id": 1,
   "album": "A.L Anderson Park",
   "photo": "images/al-anderson/anderson-park2.jpg",
   "photo_id": 2,
   "description": "View of the water"
 },
 {
+  
+  "album_id": 1,
   "album": "A.L Anderson Park",
   "photo": "images/al-anderson/anderson-park3.jpg",
   "photo_id": 3,
   "description": "Grass and water"
 },
 {
+  "album_id": 2,
   "album": "Weedon Island",
   "photo": "images/weedon/Weedon1.jpg",
   "photo_id": 4,
   "description": "Mangrove crab"
 },
 {
+  "album_id": 2,
   "album": "Weedon Island",
   "photo": "images/weedon/Weedon2.jpg",
   "photo_id": 5,
   "description": "Birds flying"
 },
 {
+  "album_id": 2,
   "album": "Weedon Island",
   "photo": "images/weedon/Weedon3.jpg",
   "photo_id": 6,
   "description": "Birds in water"
 },
 {
+  "album_id": 3,
   "album": "Gizmo",
   "photo": "images/Gizmo/gizmo1.jpg",
   "photo_id": 7,
   "description": "Gizmo sitting"
 },
 {
+  "album_id": 3,
   "album": "Gizmo",
   "photo": "images/Gizmo/gizmo2.jpg",
   "photo_id": 8,
   "description": "Gizmo snuggling with toy"
 },
 {
+  "album_id": 3,
   "album": "Gizmo",
   "photo": "images/Gizmo/gizmo3.jpg",
   "photo_id": 9,
   "description": "Gizmo looking out window"
 },
 {
+  "album_id": 4,
   "album": "Fred Howard Park",
   "photo": "images/fred-howard/fredhoward1.jpg",
   "photo_id": 10,
   "description": "Seagull flying"
 },
 {
+  "album_id": 4,
   "album": "Fred Howard Park",
   "photo": "images/fred-howard/fredhoward2.jpg",
   "photo_id": 11,
   "description": "Seagull flying"
 },
 {
+  "album_id": 4,
   "album": "Fred Howard Park",
   "photo": "images/fred-howard/fredhoward3.jpg",
   "photo_id": 12,
   "description": "Birds near water"
 },
 {
+  "album_id": 5,
   "album": "Manatee Viewing Station",
   "photo": "images/manatee/Manatee1.jpg",
   "photo_id": 13,
   "description": "Manatee"
 },
 {
+  "album_id": 5,
   "album": "Manatee Viewing Station",
   "photo": "images/manatee/Manatee2.jpg",
   "photo_id": 14,
   "description": "Manatee group"
 },
 {
+  "album_id": 5,
   "album": "Manatee Viewing Station",
   "photo": "images/manatee/Manatee3.jpg",
   "photo_id": 15,
   "description": "Manatee getting air"
 },
 {
+  "album_id": 6,
   "album": "Sandovation 2014",
   "photo": "images/Sandovation/sandovation1.jpg",
   "photo_id": 16,
   "description": "Sculpture"
 },
 {
+  "album_id": 6,
   "album": "Sandovation 2014",
   "photo": "images/Sandovation/sandovation2.jpg",
   "photo_id": 17,
   "description": "Face and woman"
 },
 {
+  "album_id": 6,
   "album": "Sandovation 2014",
   "photo": "images/Sandovation/sandovation3.jpg",
   "photo_id": 18,
   "description": "Bodies"
 },
 {
+  "album_id": 7,
   "album": "Tampa Lowry Zoo",
   "photo": "images/zoo/zoo1.jpg",
   "photo_id": 19,
   "description": "African Penguin"
 },
 {
+  "album_id": 7,
   "album": "Tampa Lowry Zoo",
   "photo": "images/zoo/zoo2.jpg",
   "photo_id": 20,
   "description": "Orangatun"
 },
 {
+  "album_id": 7,
   "album": "Tampa Lowry Zoo",
   "photo": "images/zoo/zoo3.jpg",
   "photo_id": 21,

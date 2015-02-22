@@ -1,3 +1,6 @@
+//This is for the second screen with photos in album
+//This goes with the sidebar
+
 var PhotoCollection = (function () {
   var template = JST["photo-collection"];
 

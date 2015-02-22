@@ -17,7 +17,11 @@
 }
 .container .content {
   width: 100%;
-  height: 100%;
+  height: 700px;
+}
+.container .content h1 {
+  font-size: 48px;
+  text-align: center;
 }
 .container .content ul {
   list-style: none;
@@ -27,39 +31,39 @@
   float: left;
   margin: 10px;
 }
-.container .sidebar {
+.container .content .sidebar {
   float: left;
   width: 265px;
   height: 700px;
   margin-left: 50px;
   padding-top: 95px;
 }
-.container .sidebar ul {
+.container .content .sidebar ul {
   list-style: none;
   line-height: 40px;
   font-size: 20px;
 }
-.container .sidebar ul li {
+.container .content .sidebar ul li {
   clear: both;
 }
-.container .main {
+.container .content .main {
   float: left;
   width: calc(100% - 350px);
   height: 700px;
 }
-.container .main h1 {
+.container .content .main h1 {
   width: calc(100% - 350px);
   font-size: 48px;
   text-align: center;
 }
-.container .main ul {
+.container .content .main ul {
   list-style: none;
 }
-.container .main ul li {
+.container .content .main ul li {
   display: inline-block;
   float: left;
   margin: 10px;
 }
-.container .main ul li .thumbBox {
+.container .content .main ul li .thumbBox {
   text-align: center;
 }

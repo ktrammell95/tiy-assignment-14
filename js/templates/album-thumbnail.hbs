@@ -2,11 +2,13 @@
  --}}
  
 <li>
-  <div class="thumbBox" >
-    <div class="sample-photo">
-      <img width="200" height="200" src="{{photo}}" alt="{{description}}">
-    </div>
-    <div class="album-name" data-ind-album="{{album}}">{{album}}
-    </div>
+  <div data-group-id="{{album}}" class="thumbBox" >
+    <a href="#">
+      <div>
+        <img width="200" height="200" src="{{photo}}" alt="{{description}}">
+      </div>
+      <div class="album-name" data-ind-album="{{album}}">{{album}}
+      </div>
+    </a>
   </div>
 </li>

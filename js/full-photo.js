@@ -14,7 +14,7 @@ var PhotoFull = (function(){
     },
 
     renderData: function() {
-      var defaultPhoto = "images/user-default.jpg";
+      var defaultPhoto = "images/user-default1.jpg";
       var data = _.clone(this.data);
       if (!data.photo) {
         data.photo = defaultPhoto;
