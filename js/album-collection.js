@@ -1,14 +1,14 @@
 // This is the template for the album categories where an image for each album shows up on the page
 // No side bar
 
-var PhotoAlbums = (function () {
-  var template = JST["photo-albums"];
+var AlbumCollection = (function () {
+  var template = JST["album-collection"];
 
-  function PhotoAlbums(data) {
+  function AlbumCollection(data) {
   this.data = data;
   }
 
-  PhotoAlbums.prototype = {
+  AlbumCollection.prototype = {
     render: function() {
       var $el = $( template() );
       var $ul = $el.find("ul");
@@ -21,6 +21,6 @@ var PhotoAlbums = (function () {
     }
   };
 
-  return PhotoAlbums;
+  return AlbumCollection;
 
 })();

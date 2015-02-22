@@ -1,11 +1,8 @@
-//This is the view with the sidebar of albums &
-//the thumbnails for the images in the album
+//This is the view without the sidebar 
 
-
-//sidebar
 var AlbumGroups = (function(){
 
-  var template = JST["album-groups"];
+  var template = JST["album-list"];
 
   function AlbumGroups(data) {
     this.data = data;
@@ -32,7 +29,7 @@ var AlbumGroupsList = (function(){
   }
 
   AlbumGroupsList.prototype = {
-    select: function(groupName) {
+    select: function(albumName) {
       this.$el.find("li").removeClass("active");
       this.$el
         .find("li[data-group-name='"+ albumName +"']")

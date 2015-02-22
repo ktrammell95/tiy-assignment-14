@@ -1,7 +1,7 @@
 // This is the 1st view of all albums on one page
 
 var AlbumThumbNail = (function () {
-  var template = JST["thumbnail"];
+  var template = JST["album-thumbnail"];
 
   function AlbumThumbNail(data) {
   this.data = data;

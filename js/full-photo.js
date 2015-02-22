@@ -2,7 +2,7 @@
 
 var PhotoFull = (function(){
 
-  var template = JST["ind-photos"];
+  var template = JST["full-photo"];
 
   function PhotoFull(data) {
     this.data = data;
