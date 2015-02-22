@@ -86,21 +86,21 @@
 {
   "album_id": 5,
   "album": "Manatee Viewing Station",
-  "photo": "images/manatee/Manatee1.jpg",
+  "photo": "images/manatee/manatee1.jpg",
   "photo_id": 13,
   "description": "Manatee"
 },
 {
   "album_id": 5,
   "album": "Manatee Viewing Station",
-  "photo": "images/manatee/Manatee2.jpg",
+  "photo": "images/manatee/manatee2.jpg",
   "photo_id": 14,
   "description": "Manatee group"
 },
 {
   "album_id": 5,
   "album": "Manatee Viewing Station",
-  "photo": "images/manatee/Manatee3.jpg",
+  "photo": "images/manatee/manatee3.jpg",
   "photo_id": 15,
   "description": "Manatee getting air"
 },
