@@ -44,21 +44,21 @@
 {
   "album_id": 3,
   "album": "Gizmo",
-  "photo": "images/Gizmo/gizmo1.jpg",
+  "photo": "images/gizmo/gizmo1.jpg",
   "photo_id": 7,
   "description": "Gizmo sitting"
 },
 {
   "album_id": 3,
   "album": "Gizmo",
-  "photo": "images/Gizmo/gizmo2.jpg",
+  "photo": "images/gizmo/gizmo2.jpg",
   "photo_id": 8,
   "description": "Gizmo snuggling with toy"
 },
 {
   "album_id": 3,
   "album": "Gizmo",
-  "photo": "images/Gizmo/gizmo3.jpg",
+  "photo": "images/gizmo/gizmo3.jpg",
   "photo_id": 9,
   "description": "Gizmo looking out window"
 },
@@ -107,21 +107,21 @@
 {
   "album_id": 6,
   "album": "Sandovation 2014",
-  "photo": "images/Sandovation/sandovation1.jpg",
+  "photo": "images/sandovation/sandovation1.jpg",
   "photo_id": 16,
   "description": "Sculpture"
 },
 {
   "album_id": 6,
   "album": "Sandovation 2014",
-  "photo": "images/Sandovation/sandovation2.jpg",
+  "photo": "images/sandovation/sandovation2.jpg",
   "photo_id": 17,
   "description": "Face and woman"
 },
 {
   "album_id": 6,
   "album": "Sandovation 2014",
-  "photo": "images/Sandovation/sandovation3.jpg",
+  "photo": "images/sandovation/sandovation3.jpg",
   "photo_id": 18,
   "description": "Bodies"
 },
