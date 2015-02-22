@@ -14,7 +14,7 @@ this["JST"]["album-list"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"
 this["JST"] = this["JST"] || {};
 this["JST"]["album-thumbnail"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
   var helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
-  return " \n<li>\n  <div class=\"thumbBox\" >\n    <div class=\"sample-photo\">\n      <img width=\"300\" src=\""
+  return " \n<li>\n  <div class=\"thumbBox\" >\n    <div class=\"sample-photo\">\n      <img width=\"200\" height=\"200\" src=\""
     + escapeExpression(((helper = (helper = helpers.photo || (depth0 != null ? depth0.photo : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo","hash":{},"data":data}) : helper)))
     + "\" alt=\""
     + escapeExpression(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"description","hash":{},"data":data}) : helper)))
@@ -40,7 +40,7 @@ this["JST"]["photo-collection"] = Handlebars.template({"compiler":[6,">= 2.0.0-b
 this["JST"] = this["JST"] || {};
 this["JST"]["photo-thumbnail"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
   var helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
-  return "<li>\n  <div class=\"photoThumb\"  >\n    <div class=\"photo\">\n      <img width=\"300\" src=\""
+  return "<li>\n  <div class=\"photoThumb\"  >\n    <div class=\"photo\">\n      <img width=\"200\" height=\"200\"  src=\""
     + escapeExpression(((helper = (helper = helpers.photo || (depth0 != null ? depth0.photo : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo","hash":{},"data":data}) : helper)))
     + "\" alt=\""
     + escapeExpression(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"description","hash":{},"data":data}) : helper)))
