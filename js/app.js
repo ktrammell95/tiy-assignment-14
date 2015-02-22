@@ -57,7 +57,7 @@ var App = (function() {
       .pluck("album")
       .uniq()
       .map(function(albumNamesSidebar) {
-        // console.log("testing sidebar " + albumNamesSidebar)
+        console.log("sidebar " + albumNamesSidebar)
         return {album: albumNamesSidebar}
       })
       .value();
@@ -96,7 +96,7 @@ var App = (function() {
               var photoThumb = photo.photo;
               var photoDesc = _.find(this.data, function(photo){
                 return photo.photo === photoThumb;
-                // console.log("testing photoThumb " + photoThumb)
+                console.log("photoThumb " + photoThumb)
               });
               // photo.description = photo.description;
               // photo.photo = photo.photo;
