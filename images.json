@@ -86,42 +86,42 @@
 {
   "album_id": 5,
   "album": "Manatee Viewing Station",
-  "photo": "images/manatee/manatee1.jpg",
+  "photo": "images/manatee/manateepic1.jpg",
   "photo_id": 13,
   "description": "Manatee"
 },
 {
   "album_id": 5,
   "album": "Manatee Viewing Station",
-  "photo": "images/manatee/manatee2.jpg",
+  "photo": "images/manatee/manateepic2.jpg",
   "photo_id": 14,
   "description": "Manatee group"
 },
 {
   "album_id": 5,
   "album": "Manatee Viewing Station",
-  "photo": "images/manatee/manatee3.jpg",
+  "photo": "images/manatee/manateepic3.jpg",
   "photo_id": 15,
   "description": "Manatee getting air"
 },
 {
   "album_id": 6,
   "album": "Sandovation 2014",
-  "photo": "images/sandovation/sandovation1.jpg",
+  "photo": "images/sandovation/sandovationpic1.jpg",
   "photo_id": 16,
   "description": "Sculpture"
 },
 {
   "album_id": 6,
   "album": "Sandovation 2014",
-  "photo": "images/sandovation/sandovation2.jpg",
+  "photo": "images/sandovation/sandovationpic2.jpg",
   "photo_id": 17,
   "description": "Face and woman"
 },
 {
   "album_id": 6,
   "album": "Sandovation 2014",
-  "photo": "images/sandovation/sandovation3.jpg",
+  "photo": "images/sandovation/sandovationpic3.jpg",
   "photo_id": 18,
   "description": "Bodies"
 },
