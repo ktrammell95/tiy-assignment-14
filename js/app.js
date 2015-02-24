@@ -7,7 +7,7 @@ var App = (function() {
     this.$main = $(".main");
     this.$full = $(".full");
 
-    // this.showAlbumCollection();
+    this.showAlbumCollection();
     this.showAlbumSidebar();
     this.showPhotoThumbs();
     // this.showFullPhotos();
