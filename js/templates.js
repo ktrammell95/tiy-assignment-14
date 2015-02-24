@@ -5,11 +5,11 @@ this["JST"]["album-collection"] = Handlebars.template({"compiler":[6,">= 2.0.0-b
 this["JST"] = this["JST"] || {};
 this["JST"]["album-list"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
   var helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
-  return "\n<li data-album-list=\""
+  return "\n<li class=\"sidebar-nav\" data-album-list=\""
     + escapeExpression(((helper = (helper = helpers.album || (depth0 != null ? depth0.album : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"album","hash":{},"data":data}) : helper)))
     + "\">"
     + escapeExpression(((helper = (helper = helpers.album || (depth0 != null ? depth0.album : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"album","hash":{},"data":data}) : helper)))
-    + "</li>";
+    + "</li>\n\n\n";
 },"useData":true});
 this["JST"] = this["JST"] || {};
 this["JST"]["album-thumbnail"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
@@ -39,7 +39,10 @@ this["JST"]["full-photo"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"
 },"useData":true});
 this["JST"] = this["JST"] || {};
 this["JST"]["photo-collection"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
-  return "\n<div class=\"photo-collection\">\n   <h1>My Photos</h1>\n   <ul></ul>\n</div>";
+  var helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
+  return "\n<div class=\"photo-collection\" data-photo-id="
+    + escapeExpression(((helper = (helper = helpers.photo_id || (depth0 != null ? depth0.photo_id : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo_id","hash":{},"data":data}) : helper)))
+    + ">\n   <h1>My Photos</h1>\n   <ul></ul>\n</div>\n\n\n\n\n";
 },"useData":true});
 this["JST"] = this["JST"] || {};
 this["JST"]["photo-thumbnail"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
