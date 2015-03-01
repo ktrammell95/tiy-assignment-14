@@ -29,21 +29,15 @@ var AlbumGroupsList = (function(){
   }
 
   AlbumGroupsList.prototype = {
-    select: function(albumName) {
-      this.$el.find("li").removeClass("active");
-      this.$el
-        .find("li[data-group-name='"+ albumName +"']")
-        .addClass("active");
-    },
-
+   
     render: function() {
+      
       var $el = this.$el;
-
+      
       var group = new AlbumGroups({name: "all"});
       $el.append( group.render() );
 
       _.each(this.data, function(groupData){
-
         var group = new AlbumGroups(groupData);
         $el.append( group.render() );
 

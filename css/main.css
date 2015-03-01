@@ -1,69 +1,106 @@
-.container {
-  margin: auto;
-  width: 1500px;
-  height: 1000px;
-  background-color: #a09e9b;
+body {
+  width: 100%;
+  height: 100%;
 }
-.container .header {
+body .container {
+  width: 1500px;
+  height: 1500px;
+  margin: auto;
+  background-color: grey;
+  border-radius: 25px;
+}
+body .container .header {
   width: 100%;
   height: 150px;
   background-color: #9ebdd6;
+  border-radius: 25px 25px 0 0;
   margin: auto;
   text-align: center;
   line-height: 150px;
 }
-.container .header h1 {
+body .container .header h1 {
   font-size: 48px;
 }
-.container .content {
-  width: 100%;
-  height: 700px;
-}
-.container .content h1 {
-  font-size: 48px;
-  text-align: center;
-}
-.container .content ul {
-  list-style: none;
-}
-.container .content ul li {
-  display: inline-block;
-  float: left;
-  margin: 10px;
-}
-.container .content .sidebar {
+body .container .sidebar {
+  background-color: grey;
+  border-radius: 25px;
   float: left;
   width: 265px;
-  height: 700px;
-  margin-left: 50px;
-  padding-top: 95px;
+  height: 500px;
 }
-.container .content .sidebar ul {
-  list-style: none;
-  line-height: 40px;
+body .container .sidebar ul {
+  line-height: 50px;
   font-size: 20px;
 }
-.container .content .sidebar ul li {
+body .container .sidebar ul li {
+  list-style: none;
   clear: both;
+  color: white;
 }
-.container .content .main {
+body .container .sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+body .container .main {
+  border-radius: 25px;
+  width: calc(100% - 300px);
+  height: 100%;
+  margin-left: 35px;
   float: left;
-  width: calc(100% - 350px);
-  height: 700px;
 }
-.container .content .main h1 {
-  width: calc(100% - 350px);
+body .container .main .album-collection {
+  float: left;
+  margin: auto;
+  padding-left: 5px;
+}
+body .container .main .album-collection h1 {
   font-size: 48px;
-  text-align: center;
 }
-.container .content .main ul {
+body .container .main .album-collection ul {
   list-style: none;
 }
-.container .content .main ul li {
-  display: inline-block;
+body .container .main .album-collection ul li {
+  display: inline;
   float: left;
-  margin: 10px;
+  margin: 40px;
 }
-.container .content .main ul li .thumbBox {
+body .container .main .album-collection ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+body .container .main .album-collection ul li img {
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+}
+body .container .main .photo-collection {
+  float: left;
+  margin: auto;
+  padding-left: 5px;
+}
+body .container .main .photo-collection h1 {
+  font-size: 48px;
+}
+body .container .main .photo-collection ul {
+  list-style: none;
+}
+body .container .main .photo-collection ul li {
+  display: inline;
+  float: left;
+  margin: 40px;
+}
+body .container .main .photo-collection ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+body .container .main .photo-collection ul li img {
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+}
+body .container .main .thumbBox {
   text-align: center;
 }

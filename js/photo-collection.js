@@ -1,62 +1,41 @@
-//This is for the second screen with photos in album
-//This goes with the sidebar
+var PhotoThumbNail = (function () {
+  var template = JST["photo-thumbnail"];
+
+  function PhotoThumbNail(data) {
+    this.data = data;
+  };
+
+  PhotoThumbNail.prototype = {
+    render: function() {
+      return $( template(this.data) );
+    }
+  };
+
+  return PhotoThumbNail
+
+})();
+
 
 var PhotoCollection = (function () {
   var template = JST["photo-collection"];
 
   function PhotoCollection(data) {
-  this.data = data;
-  }
+    this.data = data;
+  };
 
   PhotoCollection.prototype = {
-    render: function() {
-      var $el = $( template() );
-      var $ul = $el.find("ul");
-
-      _.each(this.data, function(photo) {
-        var thumbnail = new PhotoThumbNail(photo)
-        $ul.append( thumbnail.render() );
-      });
-      return $el;
-    }
-  };
+        render: function() {
+            var $photoTemplate = $(template(this.data[0]));
+            var $main = $photoTemplate.find(".photo-collection");
+            _.each(this.data, function(photo){
+                var photo = new PhotoThumbNail(photo);
+                $main.append(photo.render());
+            });
+            return $photoTemplate;
+        }
+    }; 
 
   return PhotoCollection;
 
 })();
 
-// var PhotoCollectionList = (function(){
-
-//   function PhotoCollectionList(data) {
-//     this.data = data;
-//     this.$el = $("<ul />");
-//   }
-
-//   PhotoCollectionList.prototype = {
-//     select: function(photoId) {
-//       this.$el.find("li").removeClass("active");
-//       this.$el
-//         .find("li[data-group-name='"+ photoId +"']")
-//         .addClass("active");
-//     },
-
-//     render: function() {
-//       var $el = this.$el;
-
-//       var photoCollection = new PhotoCollection();
-//       $el.append( group.render() );
-
-//       _.each(this.data, function(groupData){
-
-//         var group = new PhotoCollection(groupData);
-//         $el.append( group.render() );
-
-//       });
-
-//       return $el;
-//     }
-//   }
-
-//   return PhotoCollectionList;
-
-// })();

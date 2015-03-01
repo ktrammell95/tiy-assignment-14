@@ -12,16 +12,7 @@ var PhotoFull = (function(){
     render: function() {
       return $( template(this.renderData()) );
     },
-
-    renderData: function() {
-      var defaultPhoto = "images/user-default1.jpg";
-      var data = _.clone(this.data);
-      if (!data.photo) {
-        data.photo = defaultPhoto;
-      }
-      return data;
-    }
-  }
+  };
 
   return PhotoFull;
 
