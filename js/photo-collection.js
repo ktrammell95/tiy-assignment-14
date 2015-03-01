@@ -25,17 +25,17 @@ var PhotoCollection = (function () {
 
   PhotoCollection.prototype = {
         render: function() {
-            var $photoTemplate = $(template(this.data[0]));
-            var $main = $photoTemplate.find(".photo-collection");
-            _.each(this.data, function(photo){
-                var photo = new PhotoThumbNail(photo);
-                $main.append(photo.render());
+            var $el = $(template(this.data[0]));
+            var $list = $el.find("ul");
+
+            _.filter(this.data, function(album_name){
+                var photo = new PhotoThumbNail(album_name);
+                $list.append(photo.render());
             });
-            return $photoTemplate;
+            // console.log(photo)
+            return $el;
         }
     }; 
-
+    console.log(PhotoCollection)
   return PhotoCollection;
-
 })();
-

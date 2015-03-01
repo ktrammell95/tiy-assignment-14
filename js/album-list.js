@@ -22,30 +22,28 @@ var AlbumGroups = (function(){
 
 
 var AlbumGroupsList = (function(){
+    var $el = $("<ul />");
 
   function AlbumGroupsList(data) {
     this.data = data;
-    this.$el = $("<ul />");
-  }
+    
+  };
 
   AlbumGroupsList.prototype = {
    
-    render: function() {
-      
-      var $el = this.$el;
-      
-      var group = new AlbumGroups({name: "all"});
-      $el.append( group.render() );
+    render: function() { 
+      $el.empty(); 
+      $el.append("<li><a href='#'' data-name='all'>All</a></li>")    
 
-      _.each(this.data, function(groupData){
-        var group = new AlbumGroups(groupData);
+      _.each(this.data, function(album){
+        var group = new AlbumGroups(album);
         $el.append( group.render() );
 
       });
 
       return $el;
     }
-  }
+  };
 
   return AlbumGroupsList;
 

@@ -17,7 +17,7 @@ this["JST"]["album-thumbnail"] = Handlebars.template({"compiler":[6,">= 2.0.0-be
   return " \n<li>\n  <div data-name=\""
     + escapeExpression(((helper = (helper = helpers.album_name || (depth0 != null ? depth0.album_name : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"album_name","hash":{},"data":data}) : helper)))
     + "\" class=\"thumbBox\" >\n    <a href=\"#\">\n      <div>\n        <img src=\""
-    + escapeExpression(((helper = (helper = helpers.photo || (depth0 != null ? depth0.photo : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo","hash":{},"data":data}) : helper)))
+    + escapeExpression(((helper = (helper = helpers.photo_img || (depth0 != null ? depth0.photo_img : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo_img","hash":{},"data":data}) : helper)))
     + "\" alt=\""
     + escapeExpression(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"description","hash":{},"data":data}) : helper)))
     + "\">\n      </div>\n      <div class=\"album-name\">"
@@ -30,7 +30,7 @@ this["JST"]["full-photo"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"
   return "\n<div class=\"full-photo\">\n  <div class=\"fullPhoto\" data-photo-id=\""
     + escapeExpression(((helper = (helper = helpers.photo_id || (depth0 != null ? depth0.photo_id : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo_id","hash":{},"data":data}) : helper)))
     + "\">\n  <a href=\"#\" class=\"back-btn\">Back to Albums</a>\n    <img src=\""
-    + escapeExpression(((helper = (helper = helpers.photo || (depth0 != null ? depth0.photo : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo","hash":{},"data":data}) : helper)))
+    + escapeExpression(((helper = (helper = helpers.photo_img || (depth0 != null ? depth0.photo_img : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo_img","hash":{},"data":data}) : helper)))
     + "\" alt=\""
     + escapeExpression(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"description","hash":{},"data":data}) : helper)))
     + "\">\n    <p>"
@@ -49,8 +49,8 @@ this["JST"]["photo-thumbnail"] = Handlebars.template({"compiler":[6,">= 2.0.0-be
   var helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
   return "<li>\n  <div class=\"photo-thumb\" data-photo-id=\""
     + escapeExpression(((helper = (helper = helpers.photo_id || (depth0 != null ? depth0.photo_id : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo_id","hash":{},"data":data}) : helper)))
-    + "\" >\n    <div class=\"photo\">\n      <a href=\"#\">\n      <img width=\"200\" height=\"200\"  src=\""
-    + escapeExpression(((helper = (helper = helpers.photo || (depth0 != null ? depth0.photo : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo","hash":{},"data":data}) : helper)))
+    + "\" >\n    <div class=\"photo\">\n      <a href=\"#\">\n      <img src=\""
+    + escapeExpression(((helper = (helper = helpers.photo_img || (depth0 != null ? depth0.photo_img : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo_img","hash":{},"data":data}) : helper)))
     + "\" alt=\""
     + escapeExpression(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"description","hash":{},"data":data}) : helper)))
     + "\">\n      </a>\n    </div>\n  </div>\n</li>";

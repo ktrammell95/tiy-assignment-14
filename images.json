@@ -1,216 +1,216 @@
 [{
   "album_name": "A.L Anderson Park",
-  "photo": "images/al-anderson/anderson-park1.jpg",
+  "photo_img": "images/al-anderson/anderson-park1.jpg",
   "photo_id": 1,
   "description": "View of the water with trees"
 },
 {
   "album_name": "A.L Anderson Park",
-  "photo": "images/al-anderson/anderson-park2.jpg",
+  "photo_img": "images/al-anderson/anderson-park2.jpg",
   "photo_id": 2,
   "description": "View of the water"
 },
 {
   "album_name": "A.L Anderson Park",
-  "photo": "images/al-anderson/anderson-park3.jpg",
+  "photo_img": "images/al-anderson/anderson-park3.jpg",
   "photo_id": 3,
   "description": "Grass and water"
 },
 {
   "album_name": "Weedon Island",
-  "photo": "images/weedon/weedon1.jpg",
+  "photo_img": "images/weedon/weedon1.jpg",
   "photo_id": 4,
   "description": "Mangrove crab"
 },
 {
   "album_name": "Weedon Island",
-  "photo": "images/weedon/weedon2.jpg",
+  "photo_img": "images/weedon/weedon2.jpg",
   "photo_id": 5,
   "description": "Birds flying"
 },
 {
   "album_name": "Weedon Island",
-  "photo": "images/weedon/weedon3.jpg",
+  "photo_img": "images/weedon/weedon3.jpg",
   "photo_id": 6,
   "description": "Birds in water"
 },
 {
   "album_name": "Gizmo",
-  "photo": "images/gizmo/gizmopic1.jpg",
+  "photo_img": "images/gizmo/gizmopic1.jpg",
   "photo_id": 7,
   "description": "Gizmo sitting"
 },
 {
   "album_name": "Gizmo",
-  "photo": "images/gizmo/gizmopic2.jpg",
+  "photo_img": "images/gizmo/gizmopic2.jpg",
   "photo_id": 8,
   "description": "Gizmo snuggling with toy"
 },
 {
   "album_name": "Gizmo",
-  "photo": "images/gizmo/gizmopic3.jpg",
+  "photo_img": "images/gizmo/gizmopic3.jpg",
   "photo_id": 9,
   "description": "Gizmo looking out window"
 },
 {
   "album_name": "Fred Howard Park",
-  "photo": "images/fred-howard/fredhoward1.jpg",
+  "photo_img": "images/fred-howard/fredhoward1.jpg",
   "photo_id": 10,
   "description": "Seagull flying"
 },
 {
   "album_name": "Fred Howard Park",
-  "photo": "images/fred-howard/fredhoward2.jpg",
+  "photo_img": "images/fred-howard/fredhoward2.jpg",
   "photo_id": 11,
   "description": "Seagull flying"
 },
 {
   "album_name": "Fred Howard Park",
-  "photo": "images/fred-howard/fredhoward3.jpg",
+  "photo_img": "images/fred-howard/fredhoward3.jpg",
   "photo_id": 12,
   "description": "Birds near water"
 },
 {
   "album_name": "Manatee Viewing Station",
-  "photo": "images/manatee/manateepic1.jpg",
+  "photo_img": "images/manatee/manateepic1.jpg",
   "photo_id": 13,
   "description": "Manatee"
 },
 {
   "album_name": "Manatee Viewing Station",
-  "photo": "images/manatee/manateepic2.jpg",
+  "photo_img": "images/manatee/manateepic2.jpg",
   "photo_id": 14,
   "description": "Manatee group"
 },
 {
   "album_name": "Manatee Viewing Station",
-  "photo": "images/manatee/manateepic3.jpg",
+  "photo_img": "images/manatee/manateepic3.jpg",
   "photo_id": 15,
   "description": "Manatee getting air"
 },
 {
   "album_name": "Sandovation 2014",
-  "photo": "images/sandovation/sandovationpic1.jpg",
+  "photo_img": "images/sandovation/sandovationpic1.jpg",
   "photo_id": 16,
   "description": "Sculpture"
 },
 {
   "album_name": "Sandovation 2014",
-  "photo": "images/sandovation/sandovationpic2.jpg",
+  "photo_img": "images/sandovation/sandovationpic2.jpg",
   "photo_id": 17,
   "description": "Face and woman"
 },
 {
   "album_name": "Sandovation 2014",
-  "photo": "images/sandovation/sandovationpic3.jpg",
+  "photo_img": "images/sandovation/sandovationpic3.jpg",
   "photo_id": 18,
   "description": "Bodies"
 },
 {
   "album_name": "Tampa Lowry Zoo",
-  "photo": "images/zoo/zoo1.jpg",
+  "photo_img": "images/zoo/zoo1.jpg",
   "photo_id": 19,
   "description": "African Penguin"
 },
 {
   "album_name": "Tampa Lowry Zoo",
-  "photo": "images/zoo/zoo2.jpg",
+  "photo_img": "images/zoo/zoo2.jpg",
   "photo_id": 20,
   "description": "Orangatun"
 },
 {
   "album_name": "Tampa Lowry Zoo",
-  "photo": "images/zoo/zoo3.jpg",
+  "photo_img": "images/zoo/zoo3.jpg",
   "photo_id": 21,
   "description": "Bird"
 },
 {
   "album_name": "A.L Anderson Park",
-  "photo": "images/al-anderson/anderson-park4.jpg",
+  "photo_img": "images/al-anderson/anderson-park4.jpg",
   "photo_id": 22,
   "description": "View of the water"
 },
 {
   "album_name": "Weedon Island",
-  "photo": "images/weedon/weedon4.jpg",
+  "photo_img": "images/weedon/weedon4.jpg",
   "photo_id": 23,
   "description": "Mangrove crab"
 },
 {
   "album_name": "Gizmo",
-  "photo": "images/gizmo/gizmopic4.jpg",
+  "photo_img": "images/gizmo/gizmopic4.jpg",
   "photo_id": 24,
   "description": "Gizmo sitting"
 },
 {
   "album_name": "Fred Howard Park",
-  "photo": "images/fred-howard/fredhoward4.jpg",
+  "photo_img": "images/fred-howard/fredhoward4.jpg",
   "photo_id": 25,
   "description": "Seagull flying"
 },
 {
   "album_name": "Manatee Viewing Station",
-  "photo": "images/manatee/manateepic4.jpg",
+  "photo_img": "images/manatee/manateepic4.jpg",
   "photo_id": 26,
   "description": "Manatee getting air"
 },
 {
   "album_name": "Sandovation 2014",
-  "photo": "images/sandovation/sandovationpic4.jpg",
+  "photo_img": "images/sandovation/sandovationpic4.jpg",
   "photo_id": 27,
   "description": "Bodies"
 },
 {
   "album_name": "Tampa Lowry Zoo",
-  "photo": "images/zoo/zoo4.jpg",
+  "photo_img": "images/zoo/zoo4.jpg",
   "photo_id": 28,
   "description": "Bird"
 },
 {
   "album_name": "Beauty in 2015",
-  "photo": "images/beauty/beauty1.jpg",
+  "photo_img": "images/beauty/beauty1.jpg",
   "photo_id": 29,
   "description": "January 1, 2015"
 },
 {
   "album_name": "Beauty in 2015",
-  "photo": "images/beauty/beauty2.jpg",
+  "photo_img": "images/beauty/beauty2.jpg",
   "photo_id": 30,
   "description": "January 22, 2015"
 },
 {
   "album_name": "Beauty in 2015",
-  "photo": "images/beauty/beauty3.jpg",
+  "photo_img": "images/beauty/beauty3.jpg",
   "photo_id": 31,
   "description": "February 12, 2015"
 },
 {
   "album_name": "Beauty in 2015",
-  "photo": "images/beauty/beauty4.jpg",
+  "photo_img": "images/beauty/beauty4.jpg",
   "photo_id": 32,
   "description": "February 19, 2015"
 },
 {
   "album_name": "Florida Botanical Garden",
-  "photo": "images/garden/gardens1.jpg",
+  "photo_img": "images/garden/gardens1.jpg",
   "photo_id": 33,
   "description": "Purple flowering plant"
 },
 {
   "album_name": "Florida Botanical Garden",
-  "photo": "images/garden/gardens2.jpg",
+  "photo_img": "images/garden/gardens2.jpg",
   "photo_id": 24,
   "description": "Peach flower"
 },
 {
   "album_name": "Florida Botanical Garden",
-  "photo": "images/garden/gardens3.jpg",
+  "photo_img": "images/garden/gardens3.jpg",
   "photo_id": 25,
   "description": "Bird of paradise"
 },
 {
   "album_name": "Florida Botanical Garden",
-  "photo": "images/garden/gardens4.jpg",
+  "photo_img": "images/garden/gardens4.jpg",
   "photo_id": 36,
   "description": "Pink flower"
 }]
