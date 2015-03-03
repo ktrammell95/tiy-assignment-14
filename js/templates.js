@@ -14,9 +14,9 @@ this["JST"]["album-list"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"
 this["JST"] = this["JST"] || {};
 this["JST"]["album-thumbnail"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
   var helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
-  return " \n<li>\n  <div data-name=\""
+  return " \n<li>\n  <div class=\"thumbBox\" >\n    <a href=\"#\" data-album-name=\""
     + escapeExpression(((helper = (helper = helpers.album_name || (depth0 != null ? depth0.album_name : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"album_name","hash":{},"data":data}) : helper)))
-    + "\" class=\"thumbBox\" >\n    <a href=\"#\">\n      <div>\n        <img src=\""
+    + "\">\n      <div>\n        <img src=\""
     + escapeExpression(((helper = (helper = helpers.photo_img || (depth0 != null ? depth0.photo_img : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo_img","hash":{},"data":data}) : helper)))
     + "\" alt=\""
     + escapeExpression(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"description","hash":{},"data":data}) : helper)))

@@ -36,6 +36,5 @@ var PhotoCollection = (function () {
             return $el;
         }
     }; 
-    console.log(PhotoCollection)
   return PhotoCollection;
 })();

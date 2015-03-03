@@ -9,8 +9,8 @@ var App = (function() {
 
     this.showAlbumCollection();
     this.showAlbumSidebar();
-    this.showPhotoThumbs();
-    this.showFullPhoto();
+    // this.showPhotoThumbs();
+    // this.showFullPhoto();
     this.albumsListener();
     this.$sidebar.hide();
   }
@@ -70,7 +70,6 @@ var App = (function() {
       // var albums = this.getAlbumCollection();
         // _.filter(this.data, function(album_name){
           var photoCollection = new PhotoCollection(photo);
-          console.log(photoCollection)
           this.$main.html( photoCollection.render() );
           this.$sidebar.show();
 
@@ -98,6 +97,8 @@ var App = (function() {
         var $clickedAlbum = $(e.currentTarget);
   
         var currentAlbum = $clickedAlbum.data("album-name");
+
+        console.log($clickedAlbum);
 
         var currentAlbumPics = _.filter(app.data, function(photo) {
           return photo.album_name === currentAlbum;
