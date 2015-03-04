@@ -127,6 +127,7 @@ var App = (function() {
       this.$main.on("click", ".fullPhoto a", function(e){
         e.preventDefault();
         var $clicked = $(e.currentTarget);
+        
         var currentAlbum = $clicked.data("album-name");
 
         var currentPic = _.filter(app.data, function(photo) {
