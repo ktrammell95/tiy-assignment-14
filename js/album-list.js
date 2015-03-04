@@ -32,9 +32,6 @@ var AlbumGroupsList = (function(){
   AlbumGroupsList.prototype = {
    
     render: function() { 
-      $el.empty(); 
-      $el.append("<li><a href='#'' data-name='all'>All</a></li>")    
-
       _.each(this.data, function(album){
         var group = new AlbumGroups(album);
         $el.append( group.render() );

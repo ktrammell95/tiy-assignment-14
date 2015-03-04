@@ -3,8 +3,8 @@ body {
   height: 100%;
 }
 body .container {
-  width: 1500px;
-  height: 1500px;
+  width: 960px;
+  height: 960px;
   margin: auto;
   background-color: grey;
   border-radius: 25px;
@@ -40,22 +40,20 @@ body .container .sidebar ul li {
 body .container .sidebar ul li a {
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  font-size: 18px;
 }
 body .container .main {
   border-radius: 25px;
   width: calc(100% - 300px);
   height: 100%;
-  margin-left: 35px;
   float: left;
 }
 body .container .main .album-collection {
   float: left;
-  margin: auto;
-  padding-left: 5px;
+  padding-left: 40px;
 }
 body .container .main .album-collection h1 {
-  font-size: 48px;
+  font-size: 40px;
 }
 body .container .main .album-collection ul {
   list-style: none;
@@ -63,17 +61,17 @@ body .container .main .album-collection ul {
 body .container .main .album-collection ul li {
   display: inline;
   float: left;
-  margin: 40px;
+  margin: 19px;
 }
 body .container .main .album-collection ul li a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 15px;
 }
 body .container .main .album-collection ul li img {
   border-radius: 25px;
-  width: 300px;
-  height: 300px;
+  width: 155px;
+  height: 155px;
 }
 body .container .main .photo-collection {
   float: left;
@@ -81,7 +79,7 @@ body .container .main .photo-collection {
   padding-left: 5px;
 }
 body .container .main .photo-collection h1 {
-  font-size: 48px;
+  font-size: 40px;
 }
 body .container .main .photo-collection ul {
   list-style: none;
@@ -89,17 +87,45 @@ body .container .main .photo-collection ul {
 body .container .main .photo-collection ul li {
   display: inline;
   float: left;
-  margin: 40px;
+  margin: 19px;
 }
 body .container .main .photo-collection ul li a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 15px;
 }
 body .container .main .photo-collection ul li img {
   border-radius: 25px;
-  width: 300px;
-  height: 300px;
+  width: 240px;
+  height: 240px;
+}
+body .container .main .photo-collection ul li .photo-name {
+  font-size: 15px;
+  text-align: center;
+}
+body .container .main .fullPhoto div {
+  width: 127px;
+  height: 30px;
+  border-radius: 5px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px white solid;
+  background-color: #d0d0d0;
+}
+body .container .main .fullPhoto div a {
+  text-decoration: none;
+  color: #666666;
+}
+body .container .main .fullPhoto img {
+  border-radius: 25px;
+  width: 600px;
+  height: auto;
+  margin-top: 35px;
+}
+body .container .main .fullPhoto p {
+  color: white;
+  font-size: 24px;
+  text-align: center;
 }
 body .container .main .thumbBox {
   text-align: center;

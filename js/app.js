@@ -67,20 +67,20 @@ var App = (function() {
 //--Photo Thumbs inside album
 
     showPhotoThumbs: function(photo) {
-      // var albums = this.getAlbumCollection();
-        // _.filter(this.data, function(album_name){
-          var photoCollection = new PhotoCollection(photo);
-          this.$main.html( photoCollection.render() );
-          this.$sidebar.show();
-
-        // })
+      var photoCollection = new PhotoCollection(photo);
+      this.$main.html( photoCollection.render() );
+      this.$sidebar.show();
     },  
 
 // ----Individual image
 
-    showFullPhoto: function() {
-      this.photoFull = new PhotoFull(photo);
-      this.$main.html(this.photoFull.render());
+    showFullPhoto: function(photoId) {
+      var photoData = _.find(this.data, function(photo) {
+        return photo.photo_id === photoId;
+      });
+      var photoFull = new PhotoFull(photoData);
+      this.$main.html( photoFull.render());
+      console.log(photoFull);
 
     },
 
@@ -98,15 +98,43 @@ var App = (function() {
   
         var currentAlbum = $clickedAlbum.data("album-name");
 
-        console.log($clickedAlbum);
+        var currentAlbumPics = _.filter(app.data, function(photo) {
+          return photo.album_name === currentAlbum;
+        });
+        app.showPhotoThumbs(currentAlbumPics);
+
+      }),
+
+      this.$sidebar.on("click", ".sidebar-nav a", function(e){
+        e.preventDefault();
+        var $clickedAlbum = $(e.currentTarget);
+  
+        var currentAlbum = $clickedAlbum.data("album-name");
 
         var currentAlbumPics = _.filter(app.data, function(photo) {
           return photo.album_name === currentAlbum;
         });
-        console.log(currentAlbumPics);
         app.showPhotoThumbs(currentAlbumPics);
-
       });
+
+      this.$main.on("click", ".photoThumb a", function(e){
+        e.preventDefault();
+        $clicked = $(e.currentTarget);
+        var photoId = $clicked.data("photo-id");
+        app.showFullPhoto(photoId);
+      }),
+
+      this.$main.on("click", ".fullPhoto a", function(e){
+        e.preventDefault();
+        var $clicked = $(e.currentTarget);
+        var currentAlbum = $clicked.data("album-name");
+
+        var currentPic = _.filter(app.data, function(photo) {
+          return photo.album_name === currentAlbum;
+        });
+        app.showPhotoThumbs(currentPic);
+      });
+
     },
 
   };

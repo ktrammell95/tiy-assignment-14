@@ -10,10 +10,10 @@ var PhotoFull = (function(){
 
   PhotoFull.prototype = {
     render: function() {
-      return $( template(this.renderData()) );
+      return $( template(this.data) );
     },
-  };
-
+  }
+  console.log(PhotoFull)
   return PhotoFull;
 
 })();

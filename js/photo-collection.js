@@ -25,7 +25,7 @@ var PhotoCollection = (function () {
 
   PhotoCollection.prototype = {
         render: function() {
-            var $el = $(template(this.data[0]));
+            var $el = $(template(this.data));
             var $list = $el.find("ul");
 
             _.filter(this.data, function(album_name){
