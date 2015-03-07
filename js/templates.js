@@ -27,7 +27,7 @@ this["JST"]["album-thumbnail"] = Handlebars.template({"compiler":[6,">= 2.0.0-be
 this["JST"] = this["JST"] || {};
 this["JST"]["full-photo"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
   var helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
-  return "\n<div>\n  <div class=\"fullPhoto\" >\n  <div><a href=\"#\" class=\"back-btn\">Back to Albums</a></div>\n    <img src=\""
+  return "\n<div>\n  <div class=\"fullPhoto\" >\n  <div class=\"back-btn\"><a href=\"#\">Back to Albums</a></div>\n    <img src=\""
     + escapeExpression(((helper = (helper = helpers.photo_img || (depth0 != null ? depth0.photo_img : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"photo_img","hash":{},"data":data}) : helper)))
     + "\" alt=\""
     + escapeExpression(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"description","hash":{},"data":data}) : helper)))

@@ -4,7 +4,7 @@ var App = (function() {
 
     this.$sidebar= $(".sidebar");
     this.$main = $(".main");
-    this.$body = $("body");
+    // this.$body = $("body");
 
 
     this.showAlbumCollection();
@@ -82,6 +82,8 @@ var App = (function() {
       this.$main.html( photoFull.render());
       console.log(photoFull);
 
+      
+
     },
 
  //Listeners make clicking work
@@ -102,6 +104,7 @@ var App = (function() {
           return photo.album_name === currentAlbum;
         });
         app.showPhotoThumbs(currentAlbumPics);
+        console.log(currentAlbumPics)
 
       }),
 
@@ -135,6 +138,12 @@ var App = (function() {
         });
         app.showPhotoThumbs(currentPic);
       });
+
+        $(".back-btn").on("click", function(event){
+          event.preventDefault();
+          app.showPhotoThumbs(currentPic);
+      });
+
 
     },
 
