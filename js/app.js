@@ -80,9 +80,7 @@ var App = (function() {
       });
       var photoFull = new PhotoFull(photoData);
       this.$main.html( photoFull.render());
-      console.log(photoFull);
-
-      
+      // console. log(photoFull);
 
     },
 
@@ -118,32 +116,32 @@ var App = (function() {
           return photo.album_name === currentAlbum;
         });
         app.showPhotoThumbs(currentAlbumPics);
-      });
+        console.log(currentAlbumPics)
+
+      }),
 
       this.$main.on("click", ".photoThumb a", function(e){
         e.preventDefault();
         $clicked = $(e.currentTarget);
         var photoId = $clicked.data("photo-id");
         app.showFullPhoto(photoId);
+        console.log(photoId)
+
       }),
 
-      this.$main.on("click", ".fullPhoto a", function(e){
+      this.$main.on("click", ".back-btn a", function(e){
         e.preventDefault();
         var $clicked = $(e.currentTarget);
-        
+  
         var currentAlbum = $clicked.data("album-name");
 
-        var currentPic = _.filter(app.data, function(photo) {
+        var currentAlbumPics = _.filter(app.data, function(photo) {
           return photo.album_name === currentAlbum;
         });
-        app.showPhotoThumbs(currentPic);
-      });
+        app.showPhotoThumbs(currentAlbumPics);
+        console.log(currentAlbumPics)
 
-        $(".back-btn").on("click", function(event){
-          event.preventDefault();
-          app.showPhotoThumbs(currentPic);
       });
-
 
     },
 

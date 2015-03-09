@@ -13,7 +13,7 @@ var PhotoFull = (function(){
       return $( template(this.data) );
     },
   }
-  console.log(PhotoFull)
   return PhotoFull;
+  // console.log(PhotoFull)
 
 })();
